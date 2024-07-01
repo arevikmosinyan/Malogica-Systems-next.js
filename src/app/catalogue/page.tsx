@@ -1,7 +1,7 @@
 import React from "react";
 
 const CataloguePage = () => {
-  return <div>CataloguePage </div>;
+  return <div className="text-white">CataloguePage </div>;
 };
 
 export default CataloguePage;

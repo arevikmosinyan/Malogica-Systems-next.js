@@ -1,7 +1,7 @@
 import React from "react";
 
 const Support = () => {
-  return <div>Support page</div>;
+  return <div className="text-white">Support page</div>;
 };
 
 export default Support;
