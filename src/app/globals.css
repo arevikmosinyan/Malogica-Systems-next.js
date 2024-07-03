@@ -28,3 +28,10 @@ body {
     text-wrap: balance;
   }
 }
+
+@media(min-width:1024px){
+  .swiper-wrapper{
+    gap:50px
+  }
+  
+}

@@ -1,10 +1,12 @@
-import OurUniqueSellingPrepositions from "./components/OurUniqueSellingPrepositions";
+import CallCenterSection from "../components/CallCenterSection";
+import OurUniqueSellingPrepositions from "../components/OurUniqueSellingPrepositions";
+import Revolutionize from "../components/Revolutionize";
 
 export default function Home() {
   return (
     <main>
-      <h1 className="text-white"> Home page</h1>
-
+      <Revolutionize />
+      <CallCenterSection />
       <OurUniqueSellingPrepositions />
     </main>
   );

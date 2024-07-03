@@ -1,12 +1,8 @@
 import Image from "next/image";
 import { navbarLinksNames } from "../constants/layoutconstants";
+import { socialLinkIcons } from "../constants/sociallinkicons";
+import TelegramIcon from "../../public/icons/telegram-icon.svg";
 import Link from "next/link";
-import TelegramIcon from "../../../public/icons/telegram-icon.svg";
-import LinkedinIcon from "../../../public/icons/linkedin-icon.svg";
-import YoutubeIcon from "../../../public/icons/youtube-icon.svg";
-import InstagramIcon from "../../../public/icons/instagram-icon.svg";
-import FacebookIcon from "../../../public/icons/facebook-icon.svg";
-import TwitterIcon from "../../../public/icons/twitter-icon.svg";
 
 const Footer = () => {
   return (
@@ -18,7 +14,7 @@ const Footer = () => {
             width={290}
             height={88}
             alt="Malogica Systems logo"
-            className="object-cover md:m-auto pb-5 md:pb-[53px]"
+            className="object-cover md:m-auto lg:m-0 pb-5 md:pb-[53px]"
           />
           {/* gap-er@ poxarinel flex-ov tarberakov */}
           <div className="lg:flex lg:gap-[50px] xl:gap-[70px] 2xl:gap-90px">
@@ -29,7 +25,7 @@ const Footer = () => {
                     <li key={link.name} className="md:mb-4 lg:mb-2">
                       <Link
                         href={link.href}
-                        className={`{text-sm font-medium leading-5 text-[#FFFFFF]`}
+                        className={`{text-sm font-medium leading-5 text-white`}
                       >
                         {link.name}
                       </Link>
@@ -37,19 +33,20 @@ const Footer = () => {
                   ))}
                 </div>
               </ul>
-              <div className="flex flex-col gap-[10px] text-[#FFFFFF]">
+              <div className="flex flex-col gap-[10px] text-white">
                 <p className="text-base font-bold">Contact us</p>
                 <div className="flex flex-col gap-2 text-sm font-normal leading-5 ">
                   <p>
                     Email:
-                    <span className="opacity-50">info@yourwebsite.com</span>
+                    <span className="opacity-50"> info@yourwebsite.com</span>
                   </p>
                   <p>
-                    Phone: <span className="opacity-50">+1-555-123-4567</span>
+                    Phone: <span className="opacity-50"> +1-555-123-4567</span>
                   </p>
                   <p>
-                    Address:
+                    Address:{" "}
                     <span className="opacity-50">
+                      {" "}
                       123 Main Street, Anytown, USA 12345
                     </span>
                   </p>
@@ -88,21 +85,15 @@ const Footer = () => {
             <div>Copyright © 2023 Malogica Systems. All Rights Reserved.</div>
             {/* justify-self chi @ndunum, veranayel */}
             <div className="flex items-center justify-start gap-5">
-              <Link href="/">
-                <LinkedinIcon />
-              </Link>
-              <Link href="/">
-                <YoutubeIcon />
-              </Link>
-              <Link href="/">
-                <InstagramIcon />
-              </Link>
-              <Link href="/">
-                <FacebookIcon />
-              </Link>
-              <Link href="/">
-                <TwitterIcon />
-              </Link>
+              {socialLinkIcons.map((link, index) => (
+                <Link
+                  href={link.href}
+                  key={link.name}
+                  className="flex items-center justify-start gap-5"
+                >
+                  {link.icon}
+                </Link>
+              ))}
             </div>
           </div>
         </div>
