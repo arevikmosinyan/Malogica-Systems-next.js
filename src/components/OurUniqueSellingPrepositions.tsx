@@ -16,7 +16,7 @@ const OurUniqueSellingPrepositions = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="text-white px-5 sm:px-9 md:px-24 lg:px-0 mt-[500px]">
+    <div className="text-white px-5 sm:px-9 md:px-24 lg:px-0 mt-[60px]">
       <div className="pb-5 sm:pb-12 lg:pb-[52px] md:px-[123px] 2xl:px-[383px]">
         <h1 className="text-xl sm:text-[32px] lg:text-6xl leading-[90px] font-bold text-center sm:pb-5 lg:pb-6">
           Our Unique Selling Prepositions

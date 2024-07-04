@@ -21,7 +21,7 @@ const Revolutionize = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           vulputate libero et velit interdum, ac aliquet odio mattis.
         </p>
-        <button className="rounded-[10px] py-[12px] lg:py-[15px] px-[45px] md:px-[63px] lg:px-[73px] text-white text-base text-center font-semibold bg-gradient-to-r from-[#5FA4FF] to-[#B974FF]">
+        <button className="rounded-[10px] py-[12px] lg:py-[15px] px-[45px] md:px-[63px] lg:px-[73px] text-white text-base text-center font-semibold bg-gradient-to-r from-[#1A86A1] via-[#4245CD] to-[#FF15E5]">
           Explore
         </button>
       </div>
