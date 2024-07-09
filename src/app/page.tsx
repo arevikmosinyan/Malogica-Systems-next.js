@@ -15,11 +15,11 @@ export default function Home() {
         <Image
           src={Frame}
           quality={100}
-          // layout="responsive"
+          layout="responsive"
           alt="frame"
-          className="hidden xl:block relative xl:top-[150px] xl:left-[-75px] h-full"
+          className="hidden 2xl:block relative 2xl:top-[265px] 2xl:left-[5px] h-full"
         />
-        <div className="xl:flex xl:justify-between xl:items-center xl:mt-[220px] xl:ml-[220px] xl:absolute xl:top-[-125px] z-30">
+        <div className="2xl:flex 2xl:justify-between 2xl:items-center 2xl:mt-[140px] 2xl:ml-[280px] min-[1820px]:ml-[425px] min-[2200px]:ml-[25vw] 2xl:absolute 2xl:top-[119px] z-30">
           <Products />
           <NewReleases />
         </div>

@@ -1,7 +1,11 @@
 import React from "react";
 
 const Support = () => {
-  return <div className="text-white">Support page</div>;
+  return (
+    <div className="text-white text-6xl font-semibold flex justify-center items-center h-[70vh]">
+      Support page
+    </div>
+  );
 };
 
 export default Support;

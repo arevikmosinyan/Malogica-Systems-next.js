@@ -16,7 +16,7 @@ const OurUniqueSellingPrepositions = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="text-white px-5 sm:px-9 md:px-24 lg:px-0 mt-[60px] xl:mt-[1200px]">
+    <div className="text-white px-5 sm:px-9 md:px-24 lg:px-0 mt-[150px] xl:mt-[400px] 2xl:mt-[400px]">
       <div className="pb-5 sm:pb-12 lg:pb-[52px] md:px-[123px] 2xl:px-[383px]">
         <h1 className="text-xl sm:text-[32px] lg:text-6xl leading-[90px] font-bold text-center sm:pb-5 lg:pb-6">
           Our Unique Selling Prepositions
@@ -48,7 +48,7 @@ const OurUniqueSellingPrepositions = () => {
                   index !== activeIndex ? "opacity-30 " : ""
                 )}
               >
-                <h1 className="text-2xl sm:text-[34px] lg:text-4xl font-bold text-center bg-gradient-to-r from-[#5FA4FF] to-[#B974FF] bg-clip-text text-transparent">
+                <h1 className="text-2xl sm:text-[34px] lg:text-4xl font-bold text-center bg-buttonGradientTwoColors bg-clip-text text-transparent">
                   {singleSwiperData.title}
                 </h1>
                 <p className="text-sm sm:text-lg font-normal text-center px-5">

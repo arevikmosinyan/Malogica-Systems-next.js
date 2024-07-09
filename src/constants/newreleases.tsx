@@ -7,13 +7,13 @@ export const newReleases = [
   },
   {
     image: "/images/server.png",
-    title: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Lorem ipsum dolor sit .",
     price: 699.99,
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     image: "/images/swich2.png",
-    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Lorem ipsum dolor sit amet.",
     price: 899.99,
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },

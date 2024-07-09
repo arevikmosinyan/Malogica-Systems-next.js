@@ -75,16 +75,22 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-5 text-white text-sm font-normal leading-5 bg-lightGray p-5">
-          <div className="flex">
+        <div className="flex flex-col lg:flex-row gap-5 lg:justify-between text-white text-sm font-normal leading-5 bg-lightGray p-5">
+          <div className="flex gap-5">
             <Link href="/">Privacy Policy</Link>
             <div className="w-[1px] h-6 bg-white opacity-20 mx-5"></div>
             <Link href="/">Terms and Conditions</Link>
+            <div className="hidden lg:block w-[1px] h-6 bg-white opacity-20 mx-5"></div>
+            <div className="hidden lg:block">
+              Copyright © 2023 Malogica Systems. All Rights Reserved.
+            </div>
           </div>
+
           <div className="flex flex-col md:flex-row gap-5 md:justify-between">
-            <div>Copyright © 2023 Malogica Systems. All Rights Reserved.</div>
-            {/* justify-self chi @ndunum, veranayel */}
-            <div className="flex items-center justify-start gap-5">
+            <div className="lg:hidden">
+              Copyright © 2023 Malogica Systems. All Rights Reserved.
+            </div>
+            <div className="flex items-center justify-start gap-5 mr-16">
               {socialLinkIcons.map((link, index) => (
                 <Link
                   href={link.href}

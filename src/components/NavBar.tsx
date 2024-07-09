@@ -36,17 +36,17 @@ const NavBar = () => {
           </div>
 
           <div className="lg:flex">
-            <div
+            {/* <div
               className={cn(
                 "absolute left-0 top-[15%] z-20 w-full min-h-[50vh] px-5 lg:static lg:flex lg:w-auto lg:min-h-fit items-center justify-center bg-black",
                 !isOpenMenu ? "hidden" : ""
               )}
-            >
-              {/* <div
+            > */}
+            <div
               className={`{absolute ${
                 !isOpenMenu ? "hidden" : ""
               } left-0 top-[15%] z-20 w-full min-h-[50vh] px-5 lg:static lg:flex lg:w-auto lg:min-h-fit items-center justify-center bg-black}`}
-            > */}
+            >
               <div className="flex justify-center items-center md:mx-[20px] lg:mx-[40px] xl:mx-[90px] 2xl:mx-[147px] mt-[42px] mb-11">
                 <ul>
                   <div className="flex flex-col lg:flex-row gap-[15px] lg:gap-[20px] xl:gap-[40px] 2xl:gap-[60px]">

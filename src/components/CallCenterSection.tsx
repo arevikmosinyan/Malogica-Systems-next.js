@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const CallCenterSection = () => {
   return (
-    <div className="mt-[170px] sm:mt-[157px] lg:mt-[440px] xl:mt-[553px] 2xl:mt-[440px] flex mr-5 sm:mr-10 xl:mr-0">
+    <div className="mt-[170px] sm:mt-[157px] md:mt-[270px] lg:mt-[440px] xl:mt-[553px] 2xl:mt-[440px] flex mr-5 sm:mr-10 xl:mr-0">
       <div className="relative flex-5 grow flex justify-end">
         <Image
           src="/images/call-center-employee-background.png"
